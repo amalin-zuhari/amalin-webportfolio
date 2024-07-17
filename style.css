@@ -1,0 +1,225 @@
+body {
+  background-color: white;
+  height: 100vh;
+}
+
+img {
+  height: 400px;
+  width: auto;
+}
+
+.navbar {
+  background-color: black !important;
+}
+
+
+.navbar-brand{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.navbar-icon{
+  height: 50px;
+}
+
+.navbar-link{
+  color: white;
+}
+
+.navbar-nav .nav-link {
+  color: white !important; /* Make the font color white */
+  padding: 10px 15px;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link,
+.navbar-nav .nav-link:focus {
+  background-color: pink; /* Background color when clicked or hovered */
+  color: black !important;
+  border-radius: 5px; /* Add some rounding to the box */
+}
+
+.navbar-nav .nav-item {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Keep the button pink when it's the active link */
+.navbar-nav .nav-item.active .nav-link {
+  background-color: pink;
+  color: black !important;
+}
+
+.navbar-nav .nav-link:focus {
+  background-color: pink;
+  color: black !important;
+  border-radius: 5px;
+}
+
+/* About */
+.container1 {
+  background-color: rgb(248, 114, 157);
+  padding: 20px;
+}
+
+.habout {
+    font-family: "Playwrite US Trad", cursive;
+    font-optical-sizing: auto;
+    font-size: 80px;
+    margin: 10px;
+    color: rgb(109, 29, 80);
+  }
+.about {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  font-style: normal;
+  color: white;
+}
+
+.aboutfsd{
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+  background-color: black;
+ 
+}
+
+@keyframes typing {
+  0% {width: 0;}
+  50% {width: 100%;}
+  100% {width: 100%;}
+}
+
+@keyframes blink {
+  50% {
+      border-color: transparent;
+  }
+}
+
+.typing-animation {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 4px solid black; /* Adjust the cursor color */
+  font-size: 40px; /* Adjust the font size as needed */
+  animation: typing 4s steps(40, end) infinite, blink 0.75s step-end infinite;
+  width: 0; /* Start with 0 width to animate from 0 to full width */
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+
+.section{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: black;
+    height: 40px;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.thead-pink{
+  background-color: rgb(248, 114, 157) !important;
+    color: white;
+}
+
+.eduimg{
+  height: 20px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+
+
+.card-img-top {
+    width: 100%; /* Adjust to your desired size */
+    height: auto; /* Maintains aspect ratio */
+    max-height: 150px; /* Example fixed height */
+    object-fit: contain; /* Adjusts the image to fit within the box */
+}
+
+.slideimg{
+  width: 50px;
+  height: auto;
+}
+
+#navbarSupportedContent{
+  color: rgb(0, 0, 0);
+}
+
+.imgcar{
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.card-body{
+  background-color: rgba(248, 114, 157, 0.5) !important;
+  color: black;
+}
+
+.badge{
+  background-color: #ff6699;
+}
+
+.btn-link {
+  color: #ff6699; /* Change the link color to pink */
+  text-decoration: none; /* Remove the underline */
+}
+.btn-link:hover {
+  color: #ff6699; /* Ensure the link color stays pink on hover */
+  text-decoration: none; /* Ensure the underline is removed on hover */
+}
+
+/* contact me */
+.contact-section {
+  padding: 50px 0;
+  text-align: center;
+}
+.contact-box {
+  background-color: #ff6699; /* Pink background */
+  color: white; /* White text */
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+.contact-box:hover {
+  background-color: #ff3377; /* Darker pink on hover */
+}
+.contact-link {
+  color: white; /* White color for links */
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.contact-link i {
+  margin-right: 10px;
+}
+.contact-link:hover {
+  text-decoration: none;
+}
+
+.work-experience-section {
+  padding: 50px 0;
+}
+.work-experience-section h2 {
+  margin-bottom: 30px;
+}
+.list-group-item {
+  background-color: #f8f9fa;
+}
+.media-body h5 {
+  color: #ff6699;
+}
+
+
